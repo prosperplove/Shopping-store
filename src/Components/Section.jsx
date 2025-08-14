@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import sub from "../images/shoe.jpg";
 import dress7 from "../images/dress7.jpg";
 import dress8 from "../images/dress8.jpg";
-import o from "../images/o.jpg";
+import man from "../images/man.jpg";
 import manthree from "../images/manthree.jpg";
 import mantwo from "../images/mantwo.jpg";
 import cap from "../images/women.jpg";
@@ -307,7 +307,7 @@ const Section = () => {
                     <img src={dress8} alt="" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src={o} alt="" />
+                    <img src={man} alt="" />
                   </SwiperSlide>
                    <SwiperSlide>
                     <img src={manthree} alt="" />
