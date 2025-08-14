@@ -19,7 +19,6 @@ import {toast} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import Membership from '../Mini-Pages/Membership';
 import WomenBest from '../Mini-Pages/WomenBest';
-
 const WomenSpecial = () => {
   useEffect(()=>{
 
@@ -30,10 +29,7 @@ const WomenSpecial = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, []);
 
-  //  useEffect(() => {
-  //   window.scrollTo({ top: 0, behavior: 'smooth' });
-  // }, []);
-
+     const { addToCart } = useContext(CartContext);
      const WomenSpecial = [
        // List your 15 items here
        { id: 1, name: "V Allover", price: 139, oldPrice:200, size: ["S", "M"],  image: dress4},
